@@ -12,7 +12,7 @@ Video available here https://youtu.be/1_sJNIWmCvE
 ## General info
 Control Arduino using the Autodesk Inventor model.
 
-Connect thearduino according to the diagram, then connect the arduino to the COM port. Start Autodesk Iventor and open the "RoboticArm.iam" model. Then run the application and click connect. Now move the model around and watch your arduino.
+Connect thearduino according to the diagram, then connect the arduino to the USB port. Start Autodesk Iventor and open the "RoboticArm.iam" model. Then run the application and click connect. Now move the model around and watch your arduino.
 
 ## Screenshots
 ![Example screenshot](./Screenshot1.jpg)
