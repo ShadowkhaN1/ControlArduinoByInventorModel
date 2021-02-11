@@ -3,7 +3,7 @@
 
 Servo myservo1;
 Servo myservo2;
-+
+
 
 String value;
 
@@ -19,15 +19,8 @@ void setup() {
 
 void loop() {
 
-
-//   if(Serial.available() > 0)
-//    {
-//         
-//    }
-
    value = Serial.readStringUntil('\n'); 
    
    myservo1.write(value1.substring(0, value1.indexOf(" ")).toInt());
    myservo2.write(value1.substring(value1.indexOf(" ")).toInt());
-  
 }
