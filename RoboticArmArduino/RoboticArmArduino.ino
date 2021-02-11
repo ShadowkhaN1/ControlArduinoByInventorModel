@@ -21,6 +21,6 @@ void loop() {
 
    value = Serial.readStringUntil('\n'); 
    
-   myservo1.write(value1.substring(0, value1.indexOf(" ")).toInt());
-   myservo2.write(value1.substring(value1.indexOf(" ")).toInt());
+   myservo1.write(value.substring(0, value.indexOf(" ")).toInt());
+   myservo2.write(value.substring(value.indexOf(" ")).toInt());
 }
